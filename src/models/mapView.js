@@ -6,6 +6,7 @@ export default {
 
   state: {
     demoUrl: 'https://ipalmap.com/statics/public/docs/online-demo/mapDrawing',
+    // demoUrl: 'http://10.0.11.113:8080/build_examples/amentiaExamples/mapDrawing',
     demoTitle: '地图显示',
     openDrawer: false,
   },

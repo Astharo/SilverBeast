@@ -158,6 +158,7 @@ const IndexPage = (props) => {
     });
   };
   const onIframeLoad = () => {
+    document.querySelector('iframe').contentWindow.postMessage(`${window.document.documentElement.style.fontSize}px`, 'https://ipalmap.com');
     window.setTimeout(() => {
       Toast.hide();
     }, 500);
@@ -186,6 +187,7 @@ const IndexPage = (props) => {
             height: `${iframeHeight}px`,
             width: '100%',
           }}
+          id="testFrame"
           src={demoUrl}
           frameBorder="0"
           onLoad={onIframeLoad}
