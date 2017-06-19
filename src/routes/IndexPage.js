@@ -83,7 +83,7 @@ const demoDesc = [{
     url: 'search',
   }, {
     title: '类别过滤',
-    url: 'catetoryFilter',
+    url: 'categoryFilter',
   }, {
     title: '坐标搜索',
     url: 'coordSearch',
