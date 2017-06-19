@@ -158,7 +158,7 @@ const IndexPage = (props) => {
     });
   };
   const onIframeLoad = () => {
-    document.querySelector('iframe').contentWindow.postMessage(`${window.document.documentElement.style.fontSize}px`, 'https://ipalmap.com');
+    document.querySelector('iframe').contentWindow.postMessage(window.document.documentElement.style.fontSize, 'https://ipalmap.com');
     window.setTimeout(() => {
       Toast.hide();
     }, 500);
