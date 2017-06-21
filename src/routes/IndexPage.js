@@ -72,9 +72,6 @@ const demoDesc = [{
   list: [{
     title: '点选POI',
     url: 'pick',
-  }, {
-    title: '传感器',
-    url: 'sensor',
   }],
 }, {
   category: '搜索',
